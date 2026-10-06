@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net9.0-windows7.0</TargetFramework>
     <RootNamespace>CSAppUpdater</RootNamespace>
     <Nullable>disable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
@@ -36,12 +36,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Text.Json" Version="8.0.3" />
+    <PackageReference Include="System.Text.Json" Version="10.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="CardonerSistemas.Framework.Base">
-      <HintPath>..\..\..\CS-Framework.Net\CardonerSistemas.Framework.Base\bin\Debug\net8.0-windows\CardonerSistemas.Framework.Base.dll</HintPath>
+      <HintPath>..\..\..\cs-framework.net\CardonerSistemas.Framework.Base\bin\Debug\net9.0-windows7.0\CardonerSistemas.Framework.Base.dll</HintPath>
     </Reference>
   </ItemGroup>
 
